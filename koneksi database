@@ -6,7 +6,7 @@
 #include <ESP8266HTTPClient.h>
 
 
-//Deklarasi variabel untuk kepekatan asap dan dht
+//Deklarasi variabel  dht 
 
 #define DHTPIN D7
 #define DHTTYPE 22
