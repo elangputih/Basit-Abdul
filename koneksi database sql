@@ -27,8 +27,7 @@ String stat;
 DHT dht (DHTPIN,DHTTYPE,15);
  
 // Ini adalah alamat script (URL) yang kita pasang di web server
-// Silahkan sesuaikan alamat IP dengan ip komputer anda atau alamat domain (bila di web hosting)
-// '?asap=' adalah adalah nama parameter yang akan dikirimkan ke script PHP 
+// Silahkan sesuaikan alamat IP dengan ip komputer anda atau alamat domain (bila di web hosting) 
  
 String url = "http://192.168.13.20/belajar1/simpan.php?suhu=";
  
