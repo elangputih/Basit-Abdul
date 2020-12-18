@@ -80,7 +80,7 @@ void loop() {
     // Cek apakah statusnya sudah terhubung
     if((WiFiMulti.run() == WL_CONNECTED)) {
  
-        // Tambahkan nilai kepekatan asap, suhu, dan kelembapan pada URL yang sudah kita buat
+        // Tambahkan nilai, suhu, dan kelembapan pada URL yang sudah kita buat
         USE_SERIAL.print("[HTTP] Memulai...\n");
         http.begin( url  +  (String) temperature + "&kelembaban=" + (String) humidity ); 
         
