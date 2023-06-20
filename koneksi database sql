@@ -82,7 +82,7 @@ void loop() {
  
         // Tambahkan nilai, suhu, dan kelembapan pada URL yang sudah kita buat
         USE_SERIAL.print("[HTTP] Memulai...\n");
-        http.begin( url  +  (String) temperature + "&kelembaban=" + (String) humidity ); 
+        http.begin( url  + "&kelembaban=" + (String) temperature + "&kelembaban=" + (String) humidity ); 
         
         
         // Mulai koneksi dengan metode GET
